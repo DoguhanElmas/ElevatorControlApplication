@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/nfc" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place the back of the device against the NFC and touch the screen to send data."
+        android:textSize="30sp"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/video"
+        android:autoLink="web"
+        android:textSize="20sp"
+        android:text="View Tutorial"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="@color/blue"/>
+</LinearLayout>
